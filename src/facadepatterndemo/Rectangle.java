@@ -8,11 +8,13 @@ package facadepatterndemo;
  *
  * @author sujiitramurukeshan
  */
+// Rectangle class implents the interface Shape
 public class Rectangle implements Shape{
+     //draw method is overriden
     @Override
     public int draw(){
         System.out.println("Rectangle::draw()"); //Prints the shape
-        return 2;
+        return 2; // returns an interger 2
     }
     
 }

@@ -16,14 +16,12 @@ public class Square_Test {
     public Square_Test() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
+    //Creates an object to the Square class
     Square s=new Square();
     @Test
     public void draw_test() {
-    assertEquals(3,s.draw());
-    assertNotEquals(1,s.draw());
-    assertNotNull(s.draw());
+    assertEquals(3,s.draw()); // when the method is called, it returns 3
+    assertNotEquals(1,s.draw()); // when the method is called, it will not return 1
+    assertNotNull(s.draw()); // when the method is called, it never returns a null value
     }
 }

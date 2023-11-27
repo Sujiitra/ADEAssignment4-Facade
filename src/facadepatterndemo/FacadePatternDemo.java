@@ -13,12 +13,13 @@ public class FacadePatternDemo {
     /**
      * @param args the command line arguments
      */
+    //Main method 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         ShapeMaker shapeMaker= new ShapeMaker(); //Object is created
-        shapeMaker.drawRectangle();
-        shapeMaker.drawCircle();
-        shapeMaker.drawSquare();
+        shapeMaker.drawRectangle(); //calls the shape maker
+        shapeMaker.drawCircle(); //calls the shape maker
+        shapeMaker.drawSquare(); //calls the shape maker
         
     }
     

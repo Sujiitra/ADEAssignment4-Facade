@@ -10,9 +10,11 @@ package facadepatterndemo;
  */
 //Facade Pattern Demo
 public class ShapeMaker {
+    //Declare private variables
     private Shape rectangle;
     private Shape circle;
     private Shape square;
+    
     
     public ShapeMaker(){
         rectangle= new Rectangle();
@@ -21,13 +23,13 @@ public class ShapeMaker {
     }
     
     public void drawRectangle(){
-        rectangle.draw(); 
+        rectangle.draw(); //calls the draw method from Rectangle class
     }
     public void drawCircle(){
-        circle.draw();
+        circle.draw(); //calls the draw method from Circle class
     }
     public void drawSquare(){
-        square.draw();
+        square.draw(); //calls the draw method from Square class
     }
     
 }

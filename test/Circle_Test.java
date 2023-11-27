@@ -16,14 +16,13 @@ public class Circle_Test {
     public Circle_Test() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
+   //Creates an object to the circle class
     Circle c= new Circle();
+    //Testing is performed here
      @Test
      public void draw_test() {
-     assertEquals(1,c.draw());
-     assertNotEquals(2,c.draw());
-     assertNotNull(c.draw());
+     assertEquals(1,c.draw()); // when the method is called, it returns 1
+     assertNotEquals(2,c.draw()); // when the method is called, it will not return 2
+     assertNotNull(c.draw()); // when the method is called, it can never return a null value
      }
 }
