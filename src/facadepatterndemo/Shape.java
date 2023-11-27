@@ -7,8 +7,10 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
+ * Shape interface
+ * Interface method
  */
-/*Shape interface*/
+
 public interface Shape {
     int draw(); /*Interface method*/
     

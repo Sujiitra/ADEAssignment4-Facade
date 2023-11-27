@@ -7,6 +7,9 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
+ * Main method
+ * Object is created
+ * calls the shape maker
  */
 
 public class FacadePatternDemo {

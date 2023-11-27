@@ -7,8 +7,12 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
+ * Square class implements the interface Shape
+ * draw method is overriden
+ * Prints the shape
+ * returns an interger 3
  */
-/* Square class implents the interface Shape*/
+
 public class Square implements Shape{
      /*draw method is overriden*/
      @Override

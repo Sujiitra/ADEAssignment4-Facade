@@ -7,8 +7,12 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
+ * Rectangle class implements the interface Shape
+ * draw method is overriden
+ * Prints the shape
+ * returns an interger 2
  */
-/* Rectangle class implents the interface Shape*/
+
 public class Rectangle implements Shape{
      /*draw method is overriden*/
     @Override
