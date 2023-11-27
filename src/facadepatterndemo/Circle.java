@@ -8,16 +8,16 @@ package facadepatterndemo;
  *
  * @author sujiitramurukeshan
  */
-//Circle class implents the interface Shape
+/*Circle class implents the interface Shape*/
 
 public class Circle implements Shape{
      
-     //draw method is overriden
+     /*draw method is overriden*/
     @Override
     public int draw(){
          
-        System.out.println("Circle::draw()"); //Prints the shape circle
-        return 1; // returns an interger 1
+        System.out.println("Circle::draw()"); /*Prints the shape circle*/
+        return 1; /* returns an interger 1*/
     }
     
 }

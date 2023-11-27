@@ -11,17 +11,18 @@ import static org.junit.Assert.*;
  *
  * @author sujiitramurukeshan
  */
+/*Test Class for the Square*/
 public class Square_Test {
     
     public Square_Test() {
     }
 
-    //Creates an object to the Square class
+    /*Creates an object to the Square class*/
     Square s=new Square();
     @Test
     public void draw_test() {
-    assertEquals(3,s.draw()); // when the method is called, it returns 3
-    assertNotEquals(1,s.draw()); // when the method is called, it will not return 1
-    assertNotNull(s.draw()); // when the method is called, it never returns a null value
+    assertEquals(3,s.draw()); /* when the method is called, it returns 3*/
+    assertNotEquals(1,s.draw()); /* when the method is called, it will not return 1*/
+    assertNotNull(s.draw()); /* when the method is called, it never returns a null value*/
     }
 }

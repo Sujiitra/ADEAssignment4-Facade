@@ -8,18 +8,19 @@ package facadepatterndemo;
  *
  * @author sujiitramurukeshan
  */
+
 public class FacadePatternDemo {
 
     /**
      * @param args the command line arguments
      */
-    //Main method 
+    /*Main method */
     public static void main(String[] args) {
         
-        ShapeMaker shapeMaker= new ShapeMaker(); //Object is created
-        shapeMaker.drawRectangle(); //calls the shape maker
-        shapeMaker.drawCircle(); //calls the shape maker
-        shapeMaker.drawSquare(); //calls the shape maker
+        ShapeMaker shapeMaker= new ShapeMaker(); /*Object is created*/
+        shapeMaker.drawRectangle(); /*calls the shape maker*/
+        shapeMaker.drawCircle(); /*calls the shape maker*/
+        shapeMaker.drawSquare(); /*calls the shape maker*/
         
     }
     
