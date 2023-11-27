@@ -10,10 +10,10 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
- * Test Class for the Square
- * Creates an object to the Square class
- * assert equals when the method is called, it returns 3
- * assert not equals when the method is called, it will not return 1
+ * Test Class for the Square,
+ * Creates an object to the Square class,
+ * assert equals when the method is called, it returns 3,
+ * assert not equals when the method is called, it will not return 1,
  * assert not null when the method is called, it never returns a null value
  */
 public class Square_Test {

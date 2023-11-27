@@ -7,9 +7,9 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
- * Rectangle class implements the interface Shape
- * draw method is overriden
- * Prints the shape
+ * Rectangle class implements the interface Shape,
+ * draw method is overriden,
+ * Prints the shape,
  * returns an interger 2
  */
 

@@ -7,11 +7,11 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
- * Facade Pattern Demo
- * Declare private variables
- * Creates an instance
- * calls the draw method from Rectangle class
- * calls the draw method from Circle class
+ * Facade Pattern Demo,
+ * Declare private variables,
+ * Creates an instance,
+ * calls the draw method from Rectangle class,
+ * calls the draw method from Circle class,
  * *calls the draw method from Square class
  * 
  */

@@ -10,10 +10,10 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
- * Test Class for the Rectangle
- * Creates an object to the Rectangle class
- * assert equals when the method is called, it returns 2
- * assert not equals when the method is called, it will not return 3
+ * Test Class for the Rectangle,
+ * Creates an object to the Rectangle class,
+ * assert equals when the method is called, it returns 2,
+ * assert not equals when the method is called, it will not return 3,
  * assert not null when the method is called, it never returns a null value
  * 
  */

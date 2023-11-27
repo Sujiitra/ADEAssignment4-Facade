@@ -7,8 +7,8 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
- * Main method
- * Object is created
+ * Main method,
+ * Object is created,
  * calls the shape maker
  */
 

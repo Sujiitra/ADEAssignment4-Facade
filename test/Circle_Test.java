@@ -10,11 +10,11 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
- * Test Class for the circle
- * Creates an object to the circle class
- * Testing is performed here
- * assert equals when the method is called, it returns 1
- * assert not equals when the method is called, it will not return 2
+ * Test Class for the circle,
+ * Creates an object to the circle class,
+ * Testing is performed here,
+ * assert equals when the method is called, it returns 1,
+ * assert not equals when the method is called, it will not return 2,
  * assert not null when the method is called, it can never return a null value
  * 
  */

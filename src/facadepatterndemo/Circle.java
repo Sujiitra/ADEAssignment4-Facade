@@ -8,9 +8,9 @@ package facadepatterndemo;
 /**
  *
  * @author sujiitramurukeshan
- * Circle class implements the interface Shape
- * draw method is overriden
- * returns an integer 1
+ * Circle class implements the interface Shape,
+ * draw method is overriden,
+ * returns an integer 1,
  * Prints the shape circle
  */
 
